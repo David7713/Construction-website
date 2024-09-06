@@ -1,0 +1,473 @@
+.home-hero-section {
+    height: 800px;
+    width: 100%;
+    background-image: url('../../assets/img3.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+
+ 
+}
+  
+  .home-hero-section-header {
+    font-size: 110px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 2.5px;
+  }
+  
+  .home-hero-section-text {
+    font-size: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 2.5px;
+  }
+  
+  .home-hero-section-button {
+    padding: 22px 37.5px 22px 37.5px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 14px;
+    background-color: #f9b707;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+  }
+  
+  
+  .home-hero-section-button:hover {
+    background-color: black;
+    color:white;
+  }
+  .services-header {
+    position: relative; /* Required for the absolute positioning of the line */
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: bold; /* Optional: Makes the header stand out more */
+  }
+  
+  .services-header::before {
+    content: ""; /* Empty content for the line */
+    position: absolute;
+    left: 50%; /* Center the line horizontally */
+    top: -20px; /* Adjust the position of the line relative to the header */
+    transform: translateX(-50%); /* Center the line by moving it left by 50% of its width */
+    width: 10%; /* Adjust width as needed */
+    height: 2px; /* Thickness of the line */
+    background-color: #f9b707; /* Line color (use the same as your icon background or any color you prefer) */
+  }
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    width: 100%;
+    max-width: 1200px; /* Sets the maximum width for the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    background-color: white;
+    padding: 0 20px; /* Adds some padding to ensure the content doesn't touch the edges */
+    grid-row-gap: 50px; /* Adds a margin between the rows */
+  }
+  .services-part {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 350px;
+    justify-content: space-between; /* Creates space between the icon and text */
+    margin-top: 50px;
+    padding: 0 20px; /* Optional padding for spacing */
+  }
+  
+  .services-icon-part {
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #f9b707;
+    width: 120px;
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+  }
+  
+  .services-icon-part:hover {
+    background-color: black;
+    transition: all 1s;
+  }
+  
+  .services-text-part {
+    flex-grow: 1; /* Ensures the text part takes the available space */
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px; /* Optional padding for spacing */
+    margin-top: 10px;
+  }
+
+  .services-text-part span{
+    font-size: 25px;
+    color: #3b3d42;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 34px;
+    letter-spacing: 0px;
+
+  }
+  .services-text-part p{
+    color: #888888;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 30px;
+
+  }
+
+
+
+  .our-services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f6f7;
+    height: 800px;
+    align-items: center;
+    justify-content: space-between; /* Space out text and image */
+    padding: 0 20px; /* Optional: Add padding to the sides */
+    margin-top: 100px;
+  
+  }
+  
+  .our-services-container-text-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 40px;
+    max-width: 50%; /* Ensures the text part doesn’t exceed half the container */
+  }
+  
+  .our-services-container img {
+    width: 700px;
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; /* Ensures the image fits within its container */
+  }
+  
+  .our-services-container h2 {
+    position: relative; /* Required for the absolute positioning of the line */
+    width: 100%;
+    margin-top: 20px; /* Adjusted top margin to place the line closer */
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .our-services-container h2::before {
+    content: ""; /* Empty content for the line */
+    position: absolute;
+    left: 10%; /* Center the line horizontally */
+    top: -10px; /* Adjust the position of the line relative to the header */
+    width: 20%; /* Adjust width as needed */
+    height: 2px; /* Thickness of the line */
+    background-color: #f9b707; /* Line color */
+    transform: translateX(-50%); /* Shift the line back by 50% of its width to align it */
+  }
+  
+  .our-services-container span {
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 34px;
+    letter-spacing: 1.08px;
+  }
+  
+  .our-services-container p {
+    color: #888888;
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  
+  .our-services-container button {
+    width: 160px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 14px;
+    background-color: #f9b707;
+    cursor: pointer; /* Adds pointer cursor on hover */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+
+  .our-services-container button:hover{
+    background-color: black;
+    transition: all 1s;
+    color:white;
+  }
+
+
+.home-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+  gap: 0; /* No gap between the images */
+
+  
+}
+
+.home-images img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.services-section {
+  display: flex;
+  justify-content: space-between; /* Distributes the elements evenly */
+  gap: 50px; /* Adds space between the elements */
+  margin-top: 50px; /* Adds space above the section */
+  padding: 10 40px; /* Adds padding on both sides to create a gap */
+  max-width: 1200px; /* Sets a maximum width to keep the layout compressed */
+  margin-left: auto;
+  margin-right: auto; /* Centers the container horizontally */
+}
+
+.services-element {
+  max-width: 600px; /* Sets a consistent width for each element */
+  height: auto; /* Allows the height to adjust based on content */
+  display: flex;
+  flex-direction: column;
+  align-items: start; /* Centers the content inside each element */
+  text-align: start; /* Centers the text inside each element */
+  gap: 14px; /* Adds spacing between the image, span, and paragraph */
+}
+
+
+
+
+
+
+.services-element img {
+  width: 400px;
+  height: 250px; /* Fixes the height for consistency */
+   object-fit: cover; /* Ensures the image covers the area without stretching */
+  transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.services-element img:hover {
+  transform: translateY(-10px); /* Moves the image 10px upward on hover */
+}
+.services-element span{
+  margin-top: 30px;
+  font-size: 25px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 34px;
+  letter-spacing: 0px;
+  
+}
+
+.services-element p{
+  color: #888888;
+  font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+
+
+
+
+.home-footer {
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  align-items: flex-end; /* Aligns children to the right side */
+  justify-content: center; /* Centers children vertically */
+  padding: 40px; /* Adds padding around the content */
+  background-image: url('../../assets/img3.jpeg'); /* Corrected path */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  color: white; /* Sets text color to white for contrast */
+  height: 400px; /* Adjusts height as needed */
+  position: relative; /* Sets up for positioning of children */
+  margin-top: 50px;
+}
+
+.home-footer img {
+  width: 100px; /* Sets a fixed width for the image */
+  height: auto; /* Keeps aspect ratio of the image */
+  margin-bottom: 20px; /* Adds space below the image */
+}
+
+.home-footer h1 {
+  font-size: 45px; /* Adjusts font size for the heading */
+  margin: 0; /* Removes default margin */
+  margin-bottom: 10px; /* Adds space below the heading */
+  text-align: left; /* Ensures the heading is aligned to the left */
+}
+
+.home-footer p {
+  font-size: 18px; /* Adjusts font size for the paragraph */
+  margin: 0; /* Removes default margin */
+  margin-bottom: 20px; /* Adds space below the paragraph */
+  text-align: left; /* Ensures the paragraph is aligned to the left */
+  color:white;
+}
+
+.home-footer button {
+  padding: 10px 20px; /* Adds padding inside the button */
+  font-size: 13px; /* Adjusts font size for the button text */
+  background-color: #f9b707; /* Sets a background color for the button */
+  color: white; /* Sets text color to white */
+  font-weight: bolder;
+  border: none; /* Removes default button border */
+  border-radius: 5px; /* Rounds the button corners */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  text-align: center; /* Centers text inside the button */
+}
+
+.home-footer button:hover {
+  background-color: black; 
+}
+
+
+.allRights-part {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  width: 100%; 
+  height: 70px; 
+  background-color: white; 
+}
+
+.allRights-part p {
+  margin: 0; 
+  font-size: 14px; 
+  color: #000; 
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .home-hero-section {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .home-hero-section-header {
+    font-size: 48px;
+  }
+
+  .home-hero-section-text {
+    font-size: 18px;
+  }
+
+  .home-hero-section-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .services-part {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+
+  .services-text-part {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .our-services-container {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .our-services-container-text-part {
+    max-width: 100%;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .our-services-container img {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .home-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-element {
+    max-width: 100%;
+  }
+
+  .services-element img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-footer {
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .home-footer h1 {
+    font-size: 36px;
+  }
+
+  .home-footer p {
+    font-size: 16px;
+  }
+}

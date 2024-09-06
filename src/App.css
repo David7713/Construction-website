@@ -1,0 +1,14 @@
+/* Universal Box Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
