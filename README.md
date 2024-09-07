@@ -45,14 +45,15 @@ Install my-project with npm
    ## Home
 ![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_1.png?raw=true)
 
-   ## Packages
-![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Packages.png?raw=true)
+   ## About
+![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_2.png?raw=true)
 
-   ## Footer
-![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Footer.png?raw=true)
+   ## Contact
+![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_3.png?raw=true)
 
+   ## Contact
   
-
+![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_4.png?raw=true)
 
 
 
