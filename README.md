@@ -23,7 +23,7 @@
 Install my-project with npm
 
 ```bash
-  git clone https://github.com/David7713/Project-Portal.git
+  git clone https://github.com/David7713/Construction-website.git
   cd project-portal
   npm install
   npm run dev
@@ -43,7 +43,7 @@ Install my-project with npm
 
 ## Screenshots
    ## Home
-![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Home.png?raw=true)
+[![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Home.png?raw=true)](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_1.png?raw=true)
 
    ## Packages
 ![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Packages.png?raw=true)
