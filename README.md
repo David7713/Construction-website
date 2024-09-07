@@ -1,7 +1,7 @@
 
-# Portal Tourism and travel booking website. 
+# Construction Services Website
 
-Portal is a user-friendly tourism website designed to help travelers discover exciting tour packages and effortlessly book their dream vacations. With a sleek and intuitive front-end built using React, Portal provides a seamless browsing experience for users seeking memorable travel adventures.
+ Construction is a professional construction services website designed to showcase our expertise in various building processes. From initial planning to project management, Construction ensures high-quality construction through a range of specialized services.
 
   ## Portal Main
 ![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Main.png?raw=true)
@@ -26,19 +26,19 @@ Install my-project with npm
   git clone https://github.com/David7713/Project-Portal.git
   cd project-portal
   npm install
-  npm start
+  npm run dev
 
 ```
     
 ## Colors Used
 
-| Color         | Hex                                                                |
-| ------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/006699?text=+) `#006699` |
-| Example Color | ![#808080](https://via.placeholder.com/10/10b5cb.?text=+) `#10b5cb.` |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/58585f?text=+) `#58585f` |
-| Example Color | ![#FF0000](https://via.placeholder.com/10/bebebe?text=+) `#bebebe` |
-| Example Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Dark Gray      | ![#333333](https://via.placeholder.com/10/333333?text=+) `#333333` |
+| Yellow         | ![#f9b707](https://via.placeholder.com/10/f9b707?text=+) `#f9b707` |
+| White          | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
+| Black          | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
+
 
 
 ## Screenshots
@@ -57,9 +57,9 @@ Install my-project with npm
 
 
 ## Feedback and Questions
-Thank you for taking the time to explore Portal, your gateway to unforgettable travel experiences! We appreciate your interest in our platform. If you have any questions, feedback, or suggestions, feel free to reach out to us. Your support means the world to us, and we look forward to assisting you on your travel adventures. 
+Thank you for exploring Construction, your trusted partner in construction excellence! We appreciate your interest in our services and are committed to delivering top-quality construction solutions. If you have any questions, feedback, or suggestions, please don’t hesitate to reach out to us. Your insights are invaluable, and we are here to assist you with all your construction needs.
 
 📧 Email: davo00771339@gmail.com
 
-We appreciate your interest and look forward to hearing from you! Have a great day!
+Thank you for your interest, and we look forward to hearing from you soon! Have a fantastic day!
 
