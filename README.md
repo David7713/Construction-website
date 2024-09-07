@@ -3,7 +3,7 @@
 
  Construction is a professional construction services website designed to showcase our expertise in various building processes. From initial planning to project management, Construction ensures high-quality construction through a range of specialized services.
 
-  ## Portal Main
+  ## Construction Main
 ![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Main.png?raw=true)
 
 
@@ -51,7 +51,7 @@ Install my-project with npm
    ## Contact
 ![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_3.png?raw=true)
 
-   ## Contact
+   ## Footer
   
 ![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_4.png?raw=true)
 
