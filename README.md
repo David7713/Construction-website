@@ -43,7 +43,7 @@ Install my-project with npm
 
 ## Screenshots
    ## Home
-[![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Home.png?raw=true)](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_1.png?raw=true)
+https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_1.png?raw=true
 
    ## Packages
 ![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Packages.png?raw=true)
