@@ -1,7 +1,7 @@
 .about-hero-section {
     height: 600px;
     width: 100%;
-    background-image: url('../../assets/img7.jpeg');
+    background-image: url('../../assets/backgroundImage.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

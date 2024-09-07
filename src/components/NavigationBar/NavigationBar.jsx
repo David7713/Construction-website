@@ -1,28 +1,37 @@
-import React from 'react'
-import './NavigationBar.css'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.jpg'
+import './NavigationBar.css';
+
+
 const NavigationBar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <div className='navbar-container'>
-
-
             <div className='logo-part'>
-                <Link to="/">   <Link to="/">     <img className='logo-img' src={logo}></img></Link> </Link>
-
+                <Link to="/">
+                    
+                    <h2>CONSTRUCTION</h2>
+                </Link>
             </div>
 
-            <div>
-                <ul className='routes-part'>
-                    <Link to="/">HOME</Link>
-                    <Link to="/about">ABOUT</Link>
-                    <Link to="/contacts">CONTACTS</Link>
+            <button className='menu-toggle' onClick={toggleMenu}>
+                {isOpen ? 'X' : '☰'}
+            </button>
+
+            <div className={`routes-part ${isOpen ? 'show' : ''}`}>
+                <ul>
+                    <li><Link to="/" onClick={toggleMenu}>HOME</Link></li>
+                    <li><Link to="/about" onClick={toggleMenu}>ABOUT</Link></li>
+                    <li><Link to="/contacts" onClick={toggleMenu}>CONTACT</Link></li>
                 </ul>
             </div>
-
-
         </div>
-    )
-}
+    );
+};
 
-export default NavigationBar
+export default NavigationBar;

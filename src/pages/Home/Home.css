@@ -1,7 +1,7 @@
 .home-hero-section {
     height: 800px;
     width: 100%;
-    background-image: url('../../assets/img3.jpeg');
+    background-image: url('../../assets/backgroundImage.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -320,7 +320,7 @@
   align-items: flex-end; /* Aligns children to the right side */
   justify-content: center; /* Centers children vertically */
   padding: 40px; /* Adds padding around the content */
-  background-image: url('../../assets/img3.jpeg'); /* Corrected path */
+  background-image: url('../../assets/backgroundImage.jpg'); /* Corrected path */
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center; /* Centers the background image */
   color: white; /* Sets text color to white for contrast */

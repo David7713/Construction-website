@@ -1,66 +1,101 @@
-.navbar-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-    height: 70px;
-    background-color: #333333;
-    text-align: center;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    color:white;
-    
-    
-    
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  height: 70px;
+  background-color: #333333;
+  text-align: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-.logo-img{
-    width: 130px;
-    height: 50px;
+
+.logo-img {
+  width: 130px;
+  height: 50px;
 }
-.routes-part{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4;
-    font-family: Montserrat, sans-serif;
-    color:white;
-    list-style-type: none;
+
+.routes-part ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-.routes-part li:hover{
-    color:#f9b707;
-    cursor: pointer;
-    transition: all 1s;
+
+.routes-part li:hover {
+  color: #f9b707;
+  cursor: pointer;
+  transition: all 1s;
 }
 
 .routes-part a {
-    text-decoration: none; 
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .routes-part a:hover {
-    color: #f9b707;
+  color: #f9b707;
 }
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
-    .navbar-container {
+  .navbar-container {
       flex-direction: column;
       height: auto;
       padding: 10px 0;
-    }
-  
-    .logo-part {
+      position: relative;
+  }
+
+  .logo-part {
       margin-bottom: 10px;
-    }
-  
-    .routes-part {
+  }
+
+  .menu-toggle {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+  }
+
+  .routes-part {
+      display: none;
+      width: 100%;
+  }
+
+  .routes-part.show {
+      display: block;
+  }
+
+  .routes-part ul {
       flex-direction: column;
       gap: 15px;
-    }
-  
-    .routes-part a {
-      font-size: 16px;
-    }
   }
+
+  .routes-part li {
+      margin-bottom: 10px;
+  }
+
+  .routes-part a {
+      font-size: 16px;
+      display: block;
+      padding: 10px;
+  }
+}

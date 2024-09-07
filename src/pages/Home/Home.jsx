@@ -1,16 +1,32 @@
 import React from 'react'
 import './Home.css'
 import NavigationBar from '../../components/NavigationBar/NavigationBar'
-import img3 from '../../assets/img3.jpeg'
-import img4 from '../../assets/img4.jpeg'
-import img1 from '../../assets/img1.jpeg'
-import img2 from '../../assets/img2.jpeg'
-import img5 from '../../assets/img5.jpeg'
-import img6 from '../../assets/img6.jpeg'
-import img7 from '../../assets/img7.jpeg'
-import img8 from '../../assets/img8.jpeg'
-import img9 from '../../assets/img9.jpeg'
+
 import { Link } from 'react-router-dom';
+
+
+import image1 from '../../assets/images1.jpeg'
+import image2 from '../../assets/images2.jpeg'
+import image3 from '../../assets/images3.jpeg'
+import image4 from '../../assets/images4.jpeg'
+import image5 from '../../assets/images5.jpeg'
+import image6 from '../../assets/images6.jpg'
+import image7 from '../../assets/images7.jpg'
+import image9 from '../../assets/images9.jpeg'
+import image10 from '../../assets/image10.jpg'
+import image11 from '../../assets/image11.jpg'
+
+
+
+
+
+
+import { FaHome } from "react-icons/fa";
+import { GrServices } from "react-icons/gr";
+import { FaCalculator } from "react-icons/fa";
+import { FaPencil } from "react-icons/fa6";
+import { FaBuilding } from "react-icons/fa6";
+import { MdPeopleAlt } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -32,7 +48,7 @@ const Home = () => {
     
         <div className='services-part'>
           <div className='services-icon-part'>
-            Icon
+          <FaHome></FaHome>
           </div>
           <div className='services-text-part'>
           <span>BUILDING INFORMATION <br></br>MODELING</span>
@@ -44,7 +60,7 @@ const Home = () => {
          
         <div className='services-part'>
           <div className='services-icon-part'>
-            Icon
+          <GrServices></GrServices>
           </div>
           <div className='services-text-part'>
           <span>CONSTRUCTION SERVICES</span>
@@ -58,7 +74,7 @@ const Home = () => {
          
         <div className='services-part'>
           <div className='services-icon-part'>
-            Icon
+         <FaCalculator></FaCalculator>
           </div>
           <div className='services-text-part'>
           <span>PRE-CONSTRUCTION<br></br>SERVICES</span>
@@ -75,10 +91,10 @@ const Home = () => {
          
         <div className='services-part'>
           <div className='services-icon-part'>
-            Icon
+         <FaPencil></FaPencil>
           </div>
           <div className='services-text-part'>
-          <span>BUILDING INFORMATION <br></br>MODELING</span>
+          <span>DESIGN-BUILD <br></br>MODELING</span>
           <p>Oftentimes physical and functional<br></br> essence of any <br></br>construction <br></br>project needs to be <br></br>represented digitally,<br></br> in a 3D model format. In...</p>
           </div>
          </div>
@@ -91,10 +107,10 @@ const Home = () => {
          
         <div className='services-part'>
           <div className='services-icon-part'>
-            Icon
+        <FaBuilding></FaBuilding>
           </div>
           <div className='services-text-part'>
-          <span>BUILDING INFORMATION <br></br>MODELING</span>
+          <span>CONSTRUCTION MANAGEMENT </span>
           <p>Oftentimes physical and functional<br></br> essence of any <br></br>construction <br></br>project needs to be <br></br>represented digitally,<br></br> in a 3D model format. In...</p>
           </div>
          </div>
@@ -107,10 +123,10 @@ const Home = () => {
          
         <div className='services-part'>
           <div className='services-icon-part'>
-            Icon
+         <MdPeopleAlt></MdPeopleAlt>
           </div>
           <div className='services-text-part'>
-          <span>BUILDING INFORMATION <br></br>MODELING</span>
+          <span>GENERAL CONTRACTING</span>
           <p>Oftentimes physical and functional<br></br> essence of any <br></br>construction <br></br>project needs to be <br></br>represented digitally,<br></br> in a 3D model format. In...</p>
           </div>
          </div>
@@ -130,21 +146,22 @@ const Home = () => {
     </div>
 
 
-    <img src={img4}></img>
+    <img src={image6}></img>
 
       </div>
 
 
 
     <div className='home-images'>
-    <img src={img1}></img>
-    <img src={img2}></img>
-    <img src={img3}></img>
-    <img src={img4}></img>
-    <img src={img5}></img>
-    <img src={img1}></img>
-    <img src={img7}></img>
-    <img src={img8}></img>
+    <img src={image1}></img>
+    <img src={image2}></img>
+    <img src={image3}></img>
+    <img src={image4}></img>
+    <img src={image10}></img>
+    <img src={image6}></img>
+    <img src={image9}></img>
+    <img src={image10}></img>
+
   
   
     </div>
@@ -164,21 +181,21 @@ const Home = () => {
 
 
     <div className='services-element'>
-      <img src={img3}></img>
+      <img src={image3}></img>
       <span>FUTURE PROOFING HOSPITALS</span>
       <p>By improving the physical layout of hospitals and medical facilities, we can enhance and increase safety mechanisms, improve care, and…</p>
     </div>
 
 
     <div className='services-element'>
-      <img src={img4}></img>
+      <img src={image4}></img>
       <span>FUTURE PROOFING HOSPITALS</span>
       <p>By improving the physical layout of hospitals and medical facilities, we can enhance and increase safety mechanisms, improve care, and…</p>
     </div>
 
 
     <div className='services-element'>
-      <img src={img5}></img>
+      <img src={image5}></img>
       <span>FUTURE PROOFING HOSPITALS</span>
       <p>By improving the physical layout of hospitals and medical facilities, we can enhance and increase safety mechanisms, improve care, and…</p>
     </div>
@@ -205,7 +222,7 @@ const Home = () => {
 
 
     <div className='allRights-part'>
-      <p>© 2019 year. Constractorlite | Multipurpose Theme design by TemplateMonster</p>
+      <p>© 2024 Davit. All rights reserved.</p>
     </div>
     
     </div>

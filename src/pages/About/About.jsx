@@ -6,16 +6,22 @@ import member2 from '../../assets/member2.jpg'
 import member3 from '../../assets/member3.jpg'
 import member4 from '../../assets/member4.jpg'
 import member5 from '../../assets/member5.jpg'
-import img3 from '../../assets/img3.jpeg'
-import img4 from '../../assets/img4.jpeg'
-import img1 from '../../assets/img1.jpeg'
-import img2 from '../../assets/img2.jpeg'
-import img5 from '../../assets/img5.jpeg'
-import img6 from '../../assets/img6.jpeg'
-import img7 from '../../assets/img7.jpeg'
-import img8 from '../../assets/img8.jpeg'
-import img9 from '../../assets/img9.jpeg'
+import image1 from '../../assets/images1.jpeg'
+import image2 from '../../assets/images2.jpeg'
+import image3 from '../../assets/images3.jpeg'
+import image4 from '../../assets/images4.jpeg'
+import image5 from '../../assets/images5.jpeg'
+import image6 from '../../assets/images6.jpg'
+import image7 from '../../assets/images7.jpg'
+import image9 from '../../assets/images9.jpeg'
+import image10 from '../../assets/image10.jpg'
+import image11 from '../../assets/image11.jpg'
 import { Link } from 'react-router-dom';
+
+
+
+
+
 
 const About = () => {
   useEffect(() => {
@@ -183,14 +189,14 @@ const About = () => {
 
 
    <div className='about-images'>
-    <img src={img1}></img>
-    <img src={img2}></img>
-    <img src={img3}></img>
-    <img src={img4}></img>
-    <img src={img5}></img>
-    <img src={img1}></img>
-    <img src={img7}></img>
-    <img src={img8}></img>
+   <img src={image1}></img>
+    <img src={image2}></img>
+    <img src={image3}></img>
+    <img src={image4}></img>
+    <img src={image10}></img>
+    <img src={image6}></img>
+    <img src={image9}></img>
+    <img src={image10}></img>
   
   
     </div>
